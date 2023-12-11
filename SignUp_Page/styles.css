@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url('images/blue-gradient-background.jpg');
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+h1 {
+    padding-top: 15px;
+}
+
+h5 {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px 160px 0 0;
+}
+
+input {
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+button {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 0 10px 0;
+    border-radius: 6px;
+}
+
+h4 {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 400px 0 0 0;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.container {
+    padding: 225px 2500px 225px 0px; 
+}
+
+.card-wrapper {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+}
+
+
+.card-item {
+    height: 530px;
+    width: 410px;
+    background-color: rgba(236, 240, 252, 0.856);
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    float: right;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.31), -10px 10px 20px rgba(0, 0, 0, 0.31);
+}
+
+
+.card-inner {
+    text-align: center;
+
+}
+
+.inner-part h1, input, button {
+    margin: 7px 0;
+}
+
+#main-bg {
+    object-fit: cover;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+#credentials {
+    height: 50px;
+    width: 305px;
+}
+
+#radio-btn {
+    height: 13px;
+    width: 13px;
+}
+
+#labels {
+    text-align: center;
+    font-size: larger;
+    margin-right: 8px;
+}
+
+#signup-btn{
+    width: 305px;
+    margin-bottom: 20px;
+}

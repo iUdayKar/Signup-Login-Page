@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" name="myForm" onsubmit="return validate()" method="post"></form>
+            <div class="card-wrapper">           
+                <div class="card-item">
+                    <div class="card-inner">
+                        <h1>Sign Up</h1><br>
+                            <input type="text" placeholder="Enter your first name" id="credentials" id="fName"><br>
+                            <input type="text" placeholder="Enter your last name" id="credentials" id="lName"><br>
+                            <input type="email" placeholder="Enter your email address" id="credentials" id="emailId"><br>
+                            <input type="password" placeholder="Enter password" id="credentials" id="password"><br>
+                            <div class="radio-buttons" id="radio-buttons">
+                                <h5>Gender:</h5>
+                                <input type="radio" id="radio-btn1" name="radio-btn" value="Male">
+                                <label for="male" id="labels">Male</label>
+                                <input type="radio" id="radio-btn2" name="radio-btn" value="Female">
+                                <label for="female" id="labels">Female</label>
+                                <input type="radio" id="radio-btn3" name="radio-btn" value="Other">
+                                <label for="other" id="labels">Other</label>
+                            </div>
+                        <button type="button" class="btn btn-success btn-lg" id="signup-btn">Sign Up</button>
+                    </div>  
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+<footer>
+    <h4>© Uday Kar, 2023</h4>
+</footer>
+</html>
